@@ -94,7 +94,7 @@ def create_orders(products):
     order_id = [faker.bothify(text='ORD-###') for _ in range(n)]
     order_date = [faker.date_this_year() for _ in range(n)]
     units_ordered = [random.randint(1,5) for _ in range(n)]
-    fulfillment_time = [random.randint(15,50) for _ in range(n)]
+    fulfillment_days = [random.randint(1,25) for _ in range(n)]
     return_stuatus = [random.randint(0,1) for _ in range(n)]
     delivery_delays = [random.choices(delay_range, weights=delay_weights, k=1)[0] for _ in range(n)]
 
@@ -109,8 +109,8 @@ def create_orders(products):
         'Order ID': order_id,
         'Order Date': order_date,
         'Units Ordered': units_ordered,
-        'Fulfillment Time': fulfillment_time,
-        'Delivery Delay Time':delivery_delays,
+        'Fulfillment Days': fulfillment_days,
+        'Delivery Delay Days':delivery_delays,
         'Return Status': return_stuatus
     })
     
@@ -133,7 +133,7 @@ def create_inventory(products, num_products):
         'Product Name': product_names,
         'Product SKU ID': product_sku_id,
         'Product Price': product_price,
-        'Product_Category': product_category,
+        'Product Category': product_category,
         'Product Image URL': product_image_url,
         'Product Rating': product_rating,
         'Product Stock': product_stock,
@@ -197,7 +197,7 @@ returns_df = create_returns(products, orders_df)
 
 # adding some outliers
 outlier_indices = orders_df.sample(frac=0.05).index
-orders_df.loc[outlier_indices, "Delivery Delay Time"] += np.random.randint(24, 72, size=len(outlier_indices))
+orders_df.loc[outlier_indices, "Fulfillment Days"] += np.random.randint(30, 60, size=len(outlier_indices))
 
 bulk_indices = orders_df.sample(frac=0.005).index
 orders_df.loc[bulk_indices, "Units Ordered"] = np.random.randint(50, 100, size=len(bulk_indices))
@@ -205,11 +205,11 @@ orders_df.loc[bulk_indices, "Units Ordered"] = np.random.randint(50, 100, size=l
 # 2% missing Order ID
 orders_df.loc[orders_df.sample(frac=0.02).index, "Order ID"] = None
 
-# 1% missing Fulfillment Time
-orders_df.loc[orders_df.sample(frac=0.01).index, "Fulfillment Time"] = None
+# 1% missing Fulfillment Days
+orders_df.loc[orders_df.sample(frac=0.01).index, "Fulfillment Days"] = None
 
-# 3% missing Delivery Delay Time
-orders_df.loc[orders_df.sample(frac=0.03).index, "Delivery Delay Time"] = None
+# 3% missing Delivery Delay Days
+orders_df.loc[orders_df.sample(frac=0.03).index, "Delivery Delay Days"] = None
 
 # 3% missing Processing Days
 returns_df.loc[returns_df.sample(frac=0.05).index, "Processing Days"] = None

@@ -1,51 +1,51 @@
 ,Return ID,Order ID,Returned Item,Refund Reason,Resolution,Processing Days
-0,RET-401,ORD-401,Taylor Ltd Flats,Arrived too late,No Action,1.0
-1,RET-849,ORD-849,Bryant Inc Casual Dress,Wrong size,Refund,1.0
-2,RET-162,ORD-162,Walsh and Sons Boots,Wrong size,Exchange - Item,3.0
-3,RET-797,ORD-797,Hill Group Flats,Poor quality,Exchange - Size,2.0
-4,RET-979,ORD-979,"Campbell, Collins and Salas Jeans",Item damaged,Refund,2.0
-5,RET-035,ORD-035,"Leonard, Garcia and Nichols Scarf",Item damaged,Refund,2.0
-6,RET-395,ORD-395,"Leach, Williams and Johnson Maxi Dress",Changed mind,Exchange - Size,1.0
-7,RET-544,ORD-544,Ballard-Woods Shorts,Arrived too late,Refund,3.0
-8,RET-647,ORD-647,Bryant Inc Casual Dress,Poor quality,Exchange - Size,1.0
-9,RET-605,ORD-605,Bryant Inc Casual Dress,???,Exchange - Size,1.0
-10,RET-895,ORD-895,Bryant Inc Casual Dress,Arrived too late,Exchange - Size,3.0
-11,RET-881,ORD-881,"Rangel, Benton and Kane Boots",Item damaged,Refund,1.0
-12,RET-208,ORD-208,"Rangel, Benton and Kane Boots",Poor quality,Store Credit,1.0
-13,RET-948,ORD-948,Bryant Inc Casual Dress,Wrong size,Exchange - Size,3.0
-14,RET-051,ORD-051,Villanueva-Wilson Romper,Poor quality,Refund,2.0
-15,RET-811,ORD-811,Rogers-Williams Trench Coat,Item damaged,Exchange - Size,3.0
-16,RET-238,ORD-238,Ballard-Woods Shorts,Item damaged,Refund,2.0
-17,RET-069,ORD-069,Rogers-Williams Trench Coat,Poor quality,Refund,1.0
-18,RET-090,ORD-090,"Allison, Craig and Foster Casual Dress",Arrived too late,Refund,3.0
-19,RET-735,ORD-735,Lynch PLC Shorts,Item damaged,Exchange - Size,1.0
-20,RET-076,ORD-076,Montoya-Smith Casual Dress,Arrived too late,Refund,1.0
-21,RET-360,ORD-360,Rodriguez-Park Blazer,Arrived too late,No Action,3.0
-22,RET-386,ORD-386,Taylor Ltd Flats,Wrong size,Refund,1.0
-23,RET-477,ORD-477,"Leach, Williams and Johnson Maxi Dress",Changed mind,No Action,1.0
-24,RET-962,ORD-962,Villanueva-Wilson Romper,Wrong item sent,Refund,1.0
-25,RET-064,ORD-064,Taylor Ltd Flats,Changed mind,Refund,1.0
-26,RET-771,ORD-771,Walsh and Sons Boots,Wrong size,Refund,2.0
-27,RET-309,ORD-309,Rogers-Williams Trench Coat,???,Store Credit,1.0
-28,RET-857,ORD-857,Rodriguez-Park Blazer,Changed mind,Refund,1.0
-29,RET-437,ORD-437,Villanueva-Wilson Romper,Item damaged,Refund,2.0
-30,RET-948,ORD-948,Bryant Inc Casual Dress,Wrong item sent,No Action,1.0
-31,RET-845,ORD-845,"Campbell, Collins and Salas Jeans",Wrong size,Refund,3.0
-32,RET-016,ORD-016,Rodriguez-Park Blazer,Poor quality,Refund,2.0
-33,RET-792,ORD-792,"Buck, Fitzpatrick and Perez Coat",Wrong size,Exchange - Size,1.0
-34,RET-157,ORD-157,Montoya-Smith Casual Dress,Changed mind,Refund,3.0
-35,RET-213,ORD-213,"Allison, Craig and Foster Casual Dress",Changed mind,Refund,1.0
-36,RET-675,ORD-675,Villanueva-Wilson Romper,Changed mind,Exchange - Size,3.0
-37,RET-319,ORD-319,Montoya-Smith Casual Dress,Poor quality,Refund,2.0
-38,RET-611,ORD-611,Lynch PLC Shorts,Wrong size,Store Credit,3.0
-39,RET-416,ORD-416,Bryant Inc Casual Dress,Wrong size,Exchange - Size,
-40,RET-099,ORD-099,Ballard-Woods Shorts,Arrived too late,Refund,1.0
-41,RET-338,ORD-338,Villanueva-Wilson Romper,Item damaged,Refund,3.0
-42,RET-349,ORD-349,Rodriguez-Park Blazer,Wrong size,Refund,
-43,RET-360,ORD-360,Rodriguez-Park Blazer,Wrong item sent,Refund,1.0
-44,RET-472,ORD-472,Ballard-Woods Shorts,Changed mind,Refund,2.0
-45,RET-270,ORD-270,Rogers-Williams Trench Coat,Arrived too late,Exchange - Size,3.0
-46,RET-593,ORD-593,Waters Ltd Sweater,Wrong size,Store Credit,1.0
-47,RET-165,ORD-165,Villanueva-Wilson Romper,Arrived too late,Exchange - Item,2.0
-48,RET-333,ORD-333,"Campbell, Collins and Salas Jeans",Wrong size,Partial Refund,1.0
-49,RET-387,ORD-387,Rogers-Williams Trench Coat,???,Exchange - Size,2.0
+0,RET-663,ORD-663,Blake Ltd Belt,Wrong size,Refund,2.0
+1,RET-818,ORD-818,Rogers-Meyers Jumpsuit,Wrong size,Exchange - Size,3.0
+2,RET-342,ORD-342,"Liu, Jones and Thompson Casual Dress",Changed mind,Store Credit,1.0
+3,RET-834,ORD-834,Gilbert LLC Scarf,Changed mind,Refund,2.0
+4,RET-684,ORD-684,James-Sullivan Romper,Wrong size,Refund,3.0
+5,RET-462,ORD-462,Randall LLC T-Shirt,Wrong size,Refund,2.0
+6,RET-664,ORD-664,"Gonzalez, Carpenter and Gomez Jeans",Changed mind,Exchange - Size,1.0
+7,RET-085,ORD-085,Randall LLC T-Shirt,Item damaged,Refund,3.0
+8,RET-878,ORD-878,Hawkins-Howell Flats,Wrong item sent,Exchange - Size,1.0
+9,RET-901,ORD-901,Blake Ltd Belt,Wrong item sent,Refund,3.0
+10,RET-782,ORD-782,"Smith, Liu and Richardson Casual Dress",Poor quality,Store Credit,2.0
+11,RET-782,ORD-782,"Smith, Liu and Richardson Casual Dress",Wrong size,Exchange - Size,2.0
+12,RET-081,ORD-081,"Smith, Liu and Richardson Casual Dress",Changed mind,Refund,3.0
+13,RET-014,ORD-014,Ortega-Gardner Sneakers,Wrong item sent,Exchange - Size,1.0
+14,RET-062,ORD-062,"Smith, Liu and Richardson Casual Dress",Wrong size,Refund,2.0
+15,RET-055,ORD-055,White and Sons Jacket,Wrong item sent,Refund,3.0
+16,RET-839,ORD-839,"Liu, Jones and Thompson Casual Dress",Arrived too late,Exchange - Item,1.0
+17,RET-674,ORD-674,"Liu, Jones and Thompson Casual Dress",Wrong size,Refund,2.0
+18,RET-342,ORD-342,"Liu, Jones and Thompson Casual Dress",Wrong size,Refund,1.0
+19,RET-056,ORD-056,"Liu, Jones and Thompson Casual Dress",???,Exchange - Size,2.0
+20,RET-090,ORD-090,Randall LLC T-Shirt,Arrived too late,Refund,3.0
+21,RET-073,ORD-073,Ortega-Gardner Sneakers,Wrong size,No Action,2.0
+22,RET-844,ORD-844,"Daugherty, Conner and Estrada Sandals",Arrived too late,Store Credit,3.0
+23,RET-335,ORD-335,Gilbert LLC Scarf,???,Exchange - Item,
+24,RET-839,ORD-839,"Ballard, Hartman and Henderson Casual Dress",Wrong size,Refund,2.0
+25,RET-878,ORD-878,Hawkins-Howell Flats,Wrong size,Store Credit,2.0
+26,RET-721,ORD-721,James-Sullivan Romper,???,Exchange - Item,1.0
+27,RET-308,ORD-308,"Ballard, Hartman and Henderson Casual Dress",Wrong item sent,Exchange - Item,3.0
+28,RET-589,ORD-589,White and Sons Jacket,Item damaged,Exchange - Size,1.0
+29,RET-193,ORD-193,"Andrade, Wilson and Robinson Shorts",Wrong size,Exchange - Size,3.0
+30,RET-085,ORD-085,Randall LLC T-Shirt,Wrong size,Refund,
+31,RET-090,ORD-090,Randall LLC T-Shirt,Wrong item sent,Store Credit,1.0
+32,RET-579,ORD-579,"Gonzalez, Carpenter and Gomez Jeans",Wrong size,Refund,3.0
+33,RET-335,ORD-335,Gilbert LLC Scarf,Item damaged,Exchange - Size,2.0
+34,RET-881,ORD-881,"Robertson, Allen and Foster Sandals",Poor quality,Refund,1.0
+35,RET-839,ORD-839,"Liu, Jones and Thompson Casual Dress",Wrong size,Refund,3.0
+36,RET-587,ORD-587,Thompson and Sons Belt,Item damaged,Refund,2.0
+37,RET-175,ORD-175,"Robertson, Allen and Foster Sandals",Poor quality,Refund,1.0
+38,RET-369,ORD-369,"Smith, Liu and Richardson Casual Dress",Wrong size,Exchange - Size,1.0
+39,RET-975,ORD-975,"Gonzalez, Carpenter and Gomez Jeans",Changed mind,Exchange - Size,3.0
+40,RET-782,ORD-782,Thompson and Sons Belt,Item damaged,Store Credit,2.0
+41,RET-256,ORD-256,"Ballard, Hartman and Henderson Casual Dress",Wrong size,Refund,2.0
+42,RET-686,ORD-686,"Liu, Jones and Thompson Casual Dress",Item damaged,Exchange - Size,2.0
+43,RET-838,ORD-838,Ortega-Gardner Sneakers,Item damaged,Refund,2.0
+44,RET-610,ORD-610,"Smith, Liu and Richardson Casual Dress",Wrong size,Exchange - Size,2.0
+45,RET-099,ORD-099,Randall LLC T-Shirt,Wrong size,Refund,1.0
+46,RET-785,ORD-785,"Ballard, Hartman and Henderson Casual Dress",Wrong size,Exchange - Item,1.0
+47,RET-779,ORD-779,"Daugherty, Conner and Estrada Sandals",Wrong size,Exchange - Size,1.0
+48,RET-663,ORD-663,Blake Ltd Belt,Changed mind,Refund,1.0
+49,RET-818,ORD-818,Rogers-Meyers Jumpsuit,Arrived too late,No Action,3.0
