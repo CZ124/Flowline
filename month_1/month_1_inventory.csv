@@ -1,0 +1,51 @@
+,Product Name,Product SKU ID,Product Price,Product Category,Product Image URL,Product Rating,Product Stock,Product Reorder Point,Stockout Flag
+0,Torres LLC Jeans,SKU-BTM-001-S,392.72,Bottoms,https://placekitten.com/555/408,1.5,15,50,1
+1,Torres LLC Jeans,SKU-BTM-001-M,392.72,Bottoms,https://placekitten.com/555/408,1.5,15,50,1
+2,Torres LLC Jeans,SKU-BTM-001-L,392.72,Bottoms,https://placekitten.com/555/408,1.5,15,50,1
+3,Perez-Hardy Scarf,SKU-ACC-002-S,231.3,Accessories,https://placekitten.com/681/164,3.0,110,50,0
+4,Perez-Hardy Scarf,SKU-ACC-002-M,231.3,Accessories,https://placekitten.com/681/164,3.0,110,50,0
+5,Perez-Hardy Scarf,SKU-ACC-002-L,231.3,Accessories,https://placekitten.com/681/164,3.0,110,50,0
+6,Lara-Larsen Hat,SKU-ACC-003-S,418.32,Accessories,https://picsum.photos/649/837,4.3,54,40,0
+7,Lara-Larsen Hat,SKU-ACC-003-M,418.32,Accessories,https://picsum.photos/649/837,4.3,54,40,0
+8,Lara-Larsen Hat,SKU-ACC-003-L,418.32,Accessories,https://picsum.photos/649/837,4.3,54,40,0
+9,"Cervantes, Norton and Williams Sandals",SKU-FOT-004-S,243.75,Footwear,https://dummyimage.com/201x974,1.2,118,40,0
+10,"Cervantes, Norton and Williams Sandals",SKU-FOT-004-M,243.75,Footwear,https://dummyimage.com/201x974,1.2,118,40,0
+11,"Cervantes, Norton and Williams Sandals",SKU-FOT-004-L,243.75,Footwear,https://dummyimage.com/201x974,1.2,118,40,0
+12,Taylor-Jenkins Maxi Dress,SKU-ONP-005-S,429.17,Dresses/One-Pieces,https://picsum.photos/643/196,3.7,139,40,0
+13,Taylor-Jenkins Maxi Dress,SKU-ONP-005-M,429.17,Dresses/One-Pieces,https://picsum.photos/643/196,3.7,139,40,0
+14,Taylor-Jenkins Maxi Dress,SKU-ONP-005-L,429.17,Dresses/One-Pieces,https://picsum.photos/643/196,3.7,139,40,0
+15,Ramirez-Watson Sneakers,SKU-FOT-006-S,190.22,Footwear,https://placekitten.com/527/251,3.7,197,40,0
+16,Ramirez-Watson Sneakers,SKU-FOT-006-M,190.22,Footwear,https://placekitten.com/527/251,3.7,197,40,0
+17,Ramirez-Watson Sneakers,SKU-FOT-006-L,190.22,Footwear,https://placekitten.com/527/251,3.7,197,40,0
+18,"Wright, Brown and Ruiz Trench Coat",SKU-OUT-007-S,75.38,Outerwear,https://placekitten.com/16/120,4.5,53,50,0
+19,"Wright, Brown and Ruiz Trench Coat",SKU-OUT-007-M,75.38,Outerwear,https://placekitten.com/16/120,4.5,53,50,0
+20,"Wright, Brown and Ruiz Trench Coat",SKU-OUT-007-L,75.38,Outerwear,https://placekitten.com/16/120,4.5,53,50,0
+21,"Glover, Carroll and Khan Belt",SKU-ACC-008-S,265.31,Accessories,https://picsum.photos/713/259,4.5,68,20,0
+22,"Glover, Carroll and Khan Belt",SKU-ACC-008-M,265.31,Accessories,https://picsum.photos/713/259,4.5,68,20,0
+23,"Glover, Carroll and Khan Belt",SKU-ACC-008-L,265.31,Accessories,https://picsum.photos/713/259,4.5,68,20,0
+24,"Turner, Petersen and Mcdowell Jumpsuit",SKU-ONP-009-S,13.66,Dresses/One-Pieces,https://placekitten.com/481/837,4.3,70,20,0
+25,"Turner, Petersen and Mcdowell Jumpsuit",SKU-ONP-009-M,13.66,Dresses/One-Pieces,https://placekitten.com/481/837,4.3,70,20,0
+26,"Turner, Petersen and Mcdowell Jumpsuit",SKU-ONP-009-L,13.66,Dresses/One-Pieces,https://placekitten.com/481/837,4.3,70,20,0
+27,Boone-Brown Sneakers,SKU-FOT-010-S,165.46,Footwear,https://picsum.photos/778/851,1.4,68,50,0
+28,Boone-Brown Sneakers,SKU-FOT-010-M,165.46,Footwear,https://picsum.photos/778/851,1.4,68,50,0
+29,Boone-Brown Sneakers,SKU-FOT-010-L,165.46,Footwear,https://picsum.photos/778/851,1.4,68,50,0
+30,Allen-Reese Sandals,SKU-FOT-011-S,59.12,Footwear,https://placekitten.com/574/695,1.1,55,30,0
+31,Allen-Reese Sandals,SKU-FOT-011-M,59.12,Footwear,https://placekitten.com/574/695,1.1,55,30,0
+32,Allen-Reese Sandals,SKU-FOT-011-L,59.12,Footwear,https://placekitten.com/574/695,1.1,55,30,0
+33,"Hall, Hurst and Snow Maxi Dress",SKU-ONP-012-S,494.36,Dresses/One-Pieces,https://picsum.photos/716/813,1.6,47,40,0
+34,"Hall, Hurst and Snow Maxi Dress",SKU-ONP-012-M,494.36,Dresses/One-Pieces,https://picsum.photos/716/813,1.6,47,40,0
+35,"Hall, Hurst and Snow Maxi Dress",SKU-ONP-012-L,494.36,Dresses/One-Pieces,https://picsum.photos/716/813,1.6,47,40,0
+36,Figueroa PLC Boots,SKU-FOT-013-S,19.01,Footwear,https://placekitten.com/143/304,3.5,148,20,0
+37,Figueroa PLC Boots,SKU-FOT-013-M,19.01,Footwear,https://placekitten.com/143/304,3.5,148,20,0
+38,Figueroa PLC Boots,SKU-FOT-013-L,19.01,Footwear,https://placekitten.com/143/304,3.5,148,20,0
+39,Jones Inc Hat,SKU-ACC-014-S,151.47,Accessories,https://dummyimage.com/199x599,2.8,41,60,1
+40,Jones Inc Hat,SKU-ACC-014-M,151.47,Accessories,https://dummyimage.com/199x599,2.8,41,60,1
+41,Jones Inc Hat,SKU-ACC-014-L,151.47,Accessories,https://dummyimage.com/199x599,2.8,41,60,1
+42,"Hayes, Reeves and Marshall Shorts",SKU-BTM-015-S,162.25,Bottoms,https://dummyimage.com/884x350,2.0,89,60,0
+43,"Hayes, Reeves and Marshall Shorts",SKU-BTM-015-M,162.25,Bottoms,https://dummyimage.com/884x350,2.0,89,60,0
+44,"Hayes, Reeves and Marshall Shorts",SKU-BTM-015-L,162.25,Bottoms,https://dummyimage.com/884x350,2.0,89,60,0
+45,Thompson-Harrell Casual Dress,SKU-ONP-016-S,277.1,Dresses/One-Pieces,https://placekitten.com/152/631,2.9,191,50,0
+46,Thompson-Harrell Casual Dress,SKU-ONP-016-M,277.1,Dresses/One-Pieces,https://placekitten.com/152/631,2.9,191,50,0
+47,Thompson-Harrell Casual Dress,SKU-ONP-016-L,277.1,Dresses/One-Pieces,https://placekitten.com/152/631,2.9,191,50,0
+48,Brown Group Maxi Dress,SKU-ONP-017-S,496.99,Dresses/One-Pieces,https://dummyimage.com/849x839,4.7,93,60,0
+49,Brown Group Maxi Dress,SKU-ONP-017-M,496.99,Dresses/One-Pieces,https://dummyimage.com/849x839,4.7,93,60,0

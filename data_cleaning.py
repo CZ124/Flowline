@@ -1,5 +1,9 @@
-from faker_data import orders_df, inventory_df, returns_df
+from faker_data import orders, inventories, returns
 import pandas as pd
+from datetime import datetime
+import csv
+import os
+
 
 # clean data
 def clean_data(df):
@@ -59,17 +63,26 @@ def print_df_info(df):
     print(df.describe())
     print(df.info())
 
+os.makedirs('month_1', exist_ok=True)
+os.makedirs('month_2', exist_ok=True)
+os.makedirs('month_3', exist_ok=True)
 
-cleaned_orders_df = clean_data(orders_df)
-cleaned_orders_df.to_csv('cleaned_orders.csv')
-print_df_info(cleaned_orders_df)
 
-cleaned_inventory_df = clean_data(inventory_df)
-cleaned_inventory_df.to_csv('cleaned_inventory.csv')
-print_df_info(cleaned_inventory_df)
+for i in range(3):
+    orders_df = orders[i]
+    inventory_df = inventories[i]
+    returns_df = returns[i]
 
-cleaned_returns_df = clean_data(returns_df)
-cleaned_returns_df.to_csv('cleaned_returns.csv')
-print_df_info(cleaned_returns_df)
+    cleaned_orders_df = clean_data(orders_df)
+    cleaned_orders_df.to_csv(f'month_{i+1}/month_{i+1}_cleaned_orders.csv')
+    print_df_info(cleaned_orders_df)
+
+    cleaned_inventory_df = clean_data(inventory_df)
+    cleaned_inventory_df.to_csv(f'month_{i+1}/month_{i+1}_cleaned_inventory.csv')
+    print_df_info(cleaned_inventory_df)
+
+    cleaned_returns_df = clean_data(returns_df)
+    cleaned_returns_df.to_csv(f'month_{i+1}/month_{i+1}_cleaned_returns.csv')
+    print_df_info(cleaned_returns_df)
 
 

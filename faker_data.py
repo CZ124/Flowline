@@ -2,6 +2,13 @@ from faker import Faker
 import numpy as np
 import pandas as pd
 import random
+from datetime import datetime
+from datetime import timedelta
+from dateutil.relativedelta import relativedelta
+import os
+
+
+
 
 faker = Faker()
 np.random.seed(50)
@@ -63,7 +70,15 @@ def generate_fake_product(_):
         products.append(Product(name, size, sku_id, price, category, image_url, rating, stock, reorder_point))
 
     return products
-    
+
+def generate_random_date_in_month(start_date):
+    end_date = (start_date + relativedelta(months=1)) - timedelta(days=1)
+    return faker.date_between(start_date=start_date, end_date=end_date)
+ 
+month_1_start = datetime.now().replace(day=1)
+month_2_start = (month_1_start+timedelta(days=32)).replace(day=1)
+month_3_start = (month_2_start+timedelta(days=32)).replace(day=1)
+
 
 # Generate a list of fake products
 num_products = 50
@@ -78,7 +93,7 @@ def create_products(num_products):
 
 
 # orders
-def create_orders(products):
+def create_orders(products, start_date):
     delay_range = list(range(-9,10))
     delay_weights = [
         1, 2, 4, 6, 10, 14, 20, 26, 30,  # -9 to -1
@@ -92,7 +107,7 @@ def create_orders(products):
     postcode = [faker.postcode() for _ in range(n)]
     product_ordered = [products[random.randint(0,49)].name for _ in range(n)]
     order_id = [faker.bothify(text='ORD-###') for _ in range(n)]
-    order_date = [faker.date_this_year() for _ in range(n)]
+    order_date = [generate_random_date_in_month(start_date) for _ in range(n)]
     units_ordered = [random.randint(1,5) for _ in range(n)]
     fulfillment_days = [random.randint(1,25) for _ in range(n)]
     return_stuatus = [random.randint(0,1) for _ in range(n)]
@@ -176,11 +191,18 @@ def create_returns(products, orders_df):
     refund_reason = [random.choices(refund_reasons, weights=reason_weights, k=1)[0] for _ in range(num_refunds)]
     resolution = [random.choices(resolutions, weights=resol_weights, k=1)[0] for _ in range(num_refunds)]
     processing_days = [random.randint(1,3) for _ in range(num_refunds)]
+    return_date = [
+    min(order["Order Date"] + timedelta(days=random.randint(1, 7)),
+        (order["Order Date"] + relativedelta(months=1)).replace(day=1) - timedelta(days=1))
+    for order in orders
+    ]
+
 
 
     returns_df = pd.DataFrame({
         'Return ID':return_id,
         'Order ID':order_id,
+        'Return Date':return_date,
         'Returned Item':returned_item,
         'Refund Reason':refund_reason,
         'Resolution':resolution,
@@ -189,34 +211,48 @@ def create_returns(products, orders_df):
 
     return returns_df
 
+os.makedirs('month_1', exist_ok=True)
+os.makedirs('month_2', exist_ok=True)
+os.makedirs('month_3', exist_ok=True)
 
-products = create_products(num_products)
-orders_df = create_orders(products)
-inventory_df = create_inventory(products, num_products)
-returns_df = create_returns(products, orders_df)
+month = 1
+orders = []
+inventories = []
+returns = []
 
-# adding some outliers
-outlier_indices = orders_df.sample(frac=0.05).index
-orders_df.loc[outlier_indices, "Fulfillment Days"] += np.random.randint(30, 60, size=len(outlier_indices))
+for start_date in [month_1_start, month_2_start, month_3_start]:
 
-bulk_indices = orders_df.sample(frac=0.005).index
-orders_df.loc[bulk_indices, "Units Ordered"] = np.random.randint(50, 100, size=len(bulk_indices))
+    products = create_products(num_products)
+    orders_df = create_orders(products, start_date)
+    inventory_df = create_inventory(products, num_products)
+    returns_df = create_returns(products, orders_df)
 
-# 2% missing Order ID
-orders_df.loc[orders_df.sample(frac=0.02).index, "Order ID"] = None
+    # adding some outliers
+    outlier_indices = orders_df.sample(frac=0.05).index
+    orders_df.loc[outlier_indices, "Fulfillment Days"] += np.random.randint(30, 60, size=len(outlier_indices))
 
-# 1% missing Fulfillment Days
-orders_df.loc[orders_df.sample(frac=0.01).index, "Fulfillment Days"] = None
+    bulk_indices = orders_df.sample(frac=0.005).index
+    orders_df.loc[bulk_indices, "Units Ordered"] = np.random.randint(50, 100, size=len(bulk_indices))
 
-# 3% missing Delivery Delay Days
-orders_df.loc[orders_df.sample(frac=0.03).index, "Delivery Delay Days"] = None
+    # 2% missing Order ID
+    orders_df.loc[orders_df.sample(frac=0.02).index, "Order ID"] = None
 
-# 3% missing Processing Days
-returns_df.loc[returns_df.sample(frac=0.05).index, "Processing Days"] = None
+    # 1% missing Fulfillment Days
+    orders_df.loc[orders_df.sample(frac=0.01).index, "Fulfillment Days"] = None
 
+    # 3% missing Delivery Delay Days
+    orders_df.loc[orders_df.sample(frac=0.03).index, "Delivery Delay Days"] = None
 
+    # 3% missing Processing Days
+    returns_df.loc[returns_df.sample(frac=0.05).index, "Processing Days"] = None
 
-# create csvs
-orders_df.to_csv('orders.csv')
-inventory_df.to_csv('inventory.csv')
-returns_df.to_csv('returns.csv')
+    orders.append(orders_df)
+    inventories.append(inventory_df)
+    returns.append(returns_df)
+
+    # create csvs
+    orders_df.to_csv(f'month_{month}/month_{month}_orders.csv')
+    inventory_df.to_csv(f'month_{month}/month_{month}_inventory.csv')
+    returns_df.to_csv(f'month_{month}/month_{month}_returns.csv')
+
+    month+=1

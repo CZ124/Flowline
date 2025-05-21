@@ -1,0 +1,51 @@
+,Product Name,Product SKU ID,Product Price,Product Category,Product Image URL,Product Rating,Product Stock,Product Reorder Point,Stockout Flag
+0,West PLC Romper,SKU-ONP-001-S,68.61,Dresses/One-Pieces,https://placekitten.com/54/838,4.7,87,40,0
+1,West PLC Romper,SKU-ONP-001-M,68.61,Dresses/One-Pieces,https://placekitten.com/54/838,4.7,87,40,0
+2,West PLC Romper,SKU-ONP-001-L,68.61,Dresses/One-Pieces,https://placekitten.com/54/838,4.7,87,40,0
+3,Levine-Johnson Sandals,SKU-FOT-002-S,271.94,Footwear,https://dummyimage.com/35x445,1.1,32,20,0
+4,Levine-Johnson Sandals,SKU-FOT-002-M,271.94,Footwear,https://dummyimage.com/35x445,1.1,32,20,0
+5,Levine-Johnson Sandals,SKU-FOT-002-L,271.94,Footwear,https://dummyimage.com/35x445,1.1,32,20,0
+6,Hunt Ltd T-Shirt,SKU-TOP-003-S,58.88,Tops,https://placekitten.com/744/44,1.2,19,60,1
+7,Hunt Ltd T-Shirt,SKU-TOP-003-M,58.88,Tops,https://placekitten.com/744/44,1.2,19,60,1
+8,Hunt Ltd T-Shirt,SKU-TOP-003-L,58.88,Tops,https://placekitten.com/744/44,1.2,19,60,1
+9,Hurst-Ortiz Leggings,SKU-BTM-004-S,299.27,Bottoms,https://picsum.photos/712/786,2.2,77,40,0
+10,Hurst-Ortiz Leggings,SKU-BTM-004-M,299.27,Bottoms,https://picsum.photos/712/786,2.2,77,40,0
+11,Hurst-Ortiz Leggings,SKU-BTM-004-L,299.27,Bottoms,https://picsum.photos/712/786,2.2,77,40,0
+12,Waters-Williams Jacket,SKU-OUT-005-S,374.29,Outerwear,https://placekitten.com/892/904,1.7,156,20,0
+13,Waters-Williams Jacket,SKU-OUT-005-M,374.29,Outerwear,https://placekitten.com/892/904,1.7,156,20,0
+14,Waters-Williams Jacket,SKU-OUT-005-L,374.29,Outerwear,https://placekitten.com/892/904,1.7,156,20,0
+15,"Williams, Johnson and Jacobs Leggings",SKU-BTM-006-S,102.29,Bottoms,https://dummyimage.com/1016x119,4.3,22,50,1
+16,"Williams, Johnson and Jacobs Leggings",SKU-BTM-006-M,102.29,Bottoms,https://dummyimage.com/1016x119,4.3,22,50,1
+17,"Williams, Johnson and Jacobs Leggings",SKU-BTM-006-L,102.29,Bottoms,https://dummyimage.com/1016x119,4.3,22,50,1
+18,Hudson PLC Shorts,SKU-BTM-007-S,32.93,Bottoms,https://picsum.photos/604/337,2.7,108,30,0
+19,Hudson PLC Shorts,SKU-BTM-007-M,32.93,Bottoms,https://picsum.photos/604/337,2.7,108,30,0
+20,Hudson PLC Shorts,SKU-BTM-007-L,32.93,Bottoms,https://picsum.photos/604/337,2.7,108,30,0
+21,Pennington Group Shorts,SKU-BTM-008-S,71.44,Bottoms,https://dummyimage.com/607x621,3.5,144,50,0
+22,Pennington Group Shorts,SKU-BTM-008-M,71.44,Bottoms,https://dummyimage.com/607x621,3.5,144,50,0
+23,Pennington Group Shorts,SKU-BTM-008-L,71.44,Bottoms,https://dummyimage.com/607x621,3.5,144,50,0
+24,Ferguson-Cook Shorts,SKU-BTM-009-S,354.18,Bottoms,https://dummyimage.com/386x253,4.0,176,20,0
+25,Ferguson-Cook Shorts,SKU-BTM-009-M,354.18,Bottoms,https://dummyimage.com/386x253,4.0,176,20,0
+26,Ferguson-Cook Shorts,SKU-BTM-009-L,354.18,Bottoms,https://dummyimage.com/386x253,4.0,176,20,0
+27,Hall LLC Belt,SKU-ACC-010-S,107.35,Accessories,https://dummyimage.com/936x481,4.4,65,20,0
+28,Hall LLC Belt,SKU-ACC-010-M,107.35,Accessories,https://dummyimage.com/936x481,4.4,65,20,0
+29,Hall LLC Belt,SKU-ACC-010-L,107.35,Accessories,https://dummyimage.com/936x481,4.4,65,20,0
+30,James-Goodwin Romper,SKU-ONP-011-S,402.27,Dresses/One-Pieces,https://dummyimage.com/425x19,4.3,157,40,0
+31,James-Goodwin Romper,SKU-ONP-011-M,402.27,Dresses/One-Pieces,https://dummyimage.com/425x19,4.3,157,40,0
+32,James-Goodwin Romper,SKU-ONP-011-L,402.27,Dresses/One-Pieces,https://dummyimage.com/425x19,4.3,157,40,0
+33,Gregory-Rogers Jeans,SKU-BTM-012-S,371.62,Bottoms,https://placekitten.com/418/1000,3.9,12,40,1
+34,Gregory-Rogers Jeans,SKU-BTM-012-M,371.62,Bottoms,https://placekitten.com/418/1000,3.9,12,40,1
+35,Gregory-Rogers Jeans,SKU-BTM-012-L,371.62,Bottoms,https://placekitten.com/418/1000,3.9,12,40,1
+36,"Smith, Ford and Owens Skirt",SKU-BTM-013-S,15.0,Bottoms,https://dummyimage.com/857x300,1.3,199,30,0
+37,"Smith, Ford and Owens Skirt",SKU-BTM-013-M,15.0,Bottoms,https://dummyimage.com/857x300,1.3,199,30,0
+38,"Smith, Ford and Owens Skirt",SKU-BTM-013-L,15.0,Bottoms,https://dummyimage.com/857x300,1.3,199,30,0
+39,Robinson Inc Scarf,SKU-ACC-014-S,404.83,Accessories,https://placekitten.com/83/931,4.8,1,50,1
+40,Robinson Inc Scarf,SKU-ACC-014-M,404.83,Accessories,https://placekitten.com/83/931,4.8,1,50,1
+41,Robinson Inc Scarf,SKU-ACC-014-L,404.83,Accessories,https://placekitten.com/83/931,4.8,1,50,1
+42,"Simpson, Caldwell and Perry Skirt",SKU-BTM-015-S,307.45,Bottoms,https://placekitten.com/156/262,2.9,109,30,0
+43,"Simpson, Caldwell and Perry Skirt",SKU-BTM-015-M,307.45,Bottoms,https://placekitten.com/156/262,2.9,109,30,0
+44,"Simpson, Caldwell and Perry Skirt",SKU-BTM-015-L,307.45,Bottoms,https://placekitten.com/156/262,2.9,109,30,0
+45,Hicks-Patrick Trousers,SKU-BTM-016-S,297.33,Bottoms,https://picsum.photos/152/966,4.3,15,40,1
+46,Hicks-Patrick Trousers,SKU-BTM-016-M,297.33,Bottoms,https://picsum.photos/152/966,4.3,15,40,1
+47,Hicks-Patrick Trousers,SKU-BTM-016-L,297.33,Bottoms,https://picsum.photos/152/966,4.3,15,40,1
+48,"Green, Kelly and Torres Romper",SKU-ONP-017-S,84.57,Dresses/One-Pieces,https://picsum.photos/85/384,3.1,147,40,0
+49,"Green, Kelly and Torres Romper",SKU-ONP-017-M,84.57,Dresses/One-Pieces,https://picsum.photos/85/384,3.1,147,40,0
