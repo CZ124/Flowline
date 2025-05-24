@@ -56,14 +56,15 @@ def generate_fake_product(_):
 
     products = []
 
-    name = brand+" "+product_type
-    price = round(random.uniform(10.0, 500.0), 2)
+    price = round(random.uniform(30.0, 500.0), 2)
     image_url = faker.image_url()
-    rating = round(random.uniform(1.0, 5.0), 1)
-    stock = random.randint(0, 200)
-    reorder_point = random.randint(2,6)*10
+    
 
     for size in sizes:
+        name = brand+" "+product_type+" "+size
+        rating = round(random.uniform(1.0, 5.0), 1)
+        stock = random.randint(0,10)
+        reorder_point = random.randint(2,6)
         
         sku_id = 'SKU-'+category_sku_codes[category]+str(_).zfill(3)+'-'+size
 
@@ -105,7 +106,7 @@ def create_orders(products, start_date):
     emails = [faker.email() for _ in range(n)]
     address = [faker.address() for _ in range(n)]
     postcode = [faker.postcode() for _ in range(n)]
-    product_ordered = [products[random.randint(0,49)].name for _ in range(n)]
+    product_ordered = [products[random.randint(0,49)].sku_id for _ in range(n)]
     order_id = [faker.bothify(text='ORD-###') for _ in range(n)]
     order_date = [generate_random_date_in_month(start_date) for _ in range(n)]
     units_ordered = [random.randint(1,5) for _ in range(n)]

@@ -3,6 +3,7 @@ import pandas as pd
 from datetime import datetime
 import csv
 import os
+import contextlib
 
 
 # clean data
@@ -28,7 +29,7 @@ def clean_data(df):
             df.loc[df[col] > 30, col] = 30
 
         if 'units' in col_lower_name:
-            df['Bulk Order Flag'] = df[col] >= 30
+            df['Bulk Order Flag'] = df[col] >= 15
         
         if 'stock' in col_lower_name:
             df.loc[df[col] < 0, col] = 0
@@ -67,6 +68,10 @@ os.makedirs('month_1', exist_ok=True)
 os.makedirs('month_2', exist_ok=True)
 os.makedirs('month_3', exist_ok=True)
 
+cleaned_orders = []
+cleaned_inventories = []
+cleaned_returns = []
+
 
 for i in range(3):
     orders_df = orders[i]
@@ -75,14 +80,23 @@ for i in range(3):
 
     cleaned_orders_df = clean_data(orders_df)
     cleaned_orders_df.to_csv(f'month_{i+1}/month_{i+1}_cleaned_orders.csv')
-    print_df_info(cleaned_orders_df)
+    with open('df_info_log.txt', 'a') as f:
+        with contextlib.redirect_stdout(f):
+            print_df_info(cleaned_orders_df)
+    cleaned_orders.append(cleaned_orders_df)
 
     cleaned_inventory_df = clean_data(inventory_df)
     cleaned_inventory_df.to_csv(f'month_{i+1}/month_{i+1}_cleaned_inventory.csv')
-    print_df_info(cleaned_inventory_df)
+    with open('df_info_log.txt', 'a') as f:
+        with contextlib.redirect_stdout(f):
+            print_df_info(cleaned_inventory_df)
+    cleaned_inventories.append(cleaned_inventory_df)
 
     cleaned_returns_df = clean_data(returns_df)
     cleaned_returns_df.to_csv(f'month_{i+1}/month_{i+1}_cleaned_returns.csv')
-    print_df_info(cleaned_returns_df)
+    with open('df_info_log.txt', 'a') as f:
+        with contextlib.redirect_stdout(f):
+            print_df_info(cleaned_returns_df)
+    cleaned_returns.append(cleaned_returns_df)
 
 

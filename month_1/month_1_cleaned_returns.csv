@@ -1,51 +1,51 @@
 ,Return ID,Order ID,Return Date,Returned Item,Refund Reason,Resolution,Processing Days,is_missing_Processing Days
-0,RET-091,ORD-091,2025-05-09,Perez-Hardy Scarf,???,Refund,3.0,0
-1,RET-837,ORD-837,2025-05-31,"Turner, Petersen and Mcdowell Jumpsuit",Wrong size,Refund,3.0,0
-2,RET-403,ORD-403,2025-05-28,Torres LLC Jeans,Wrong size,Refund,2.0,0
-3,RET-670,ORD-670,2025-05-08,Perez-Hardy Scarf,Arrived too late,Store Credit,2.0,0
-4,RET-766,ORD-766,2025-05-10,Boone-Brown Sneakers,Poor quality,Refund,3.0,0
-5,RET-509,ORD-509,2025-05-26,"Hall, Hurst and Snow Maxi Dress",Arrived too late,Refund,2.0,0
-6,RET-921,ORD-921,2025-05-26,Torres LLC Jeans,Wrong size,Refund,2.0,0
-7,RET-296,ORD-296,2025-05-17,Thompson-Harrell Casual Dress,Wrong size,Refund,1.0,0
-8,RET-992,ORD-992,2025-05-06,Taylor-Jenkins Maxi Dress,Wrong size,Refund,3.0,0
-9,RET-411,ORD-411,2025-05-31,Taylor-Jenkins Maxi Dress,Item damaged,Store Credit,3.0,0
-10,RET-148,ORD-148,2025-05-19,Perez-Hardy Scarf,Poor quality,Store Credit,2.0,0
-11,RET-929,ORD-929,2025-05-19,Jones Inc Hat,Poor quality,Exchange - Size,2.0,0
-12,RET-784,ORD-784,2025-05-05,Taylor-Jenkins Maxi Dress,Changed mind,Exchange - Item,2.0,0
-13,RET-625,ORD-625,2025-05-19,"Hall, Hurst and Snow Maxi Dress",Arrived too late,Exchange - Item,3.0,0
-14,RET-099,ORD-099,2025-05-21,Thompson-Harrell Casual Dress,Wrong item sent,Refund,2.0,0
-15,RET-023,ORD-023,2025-05-06,Perez-Hardy Scarf,Changed mind,Refund,1.0,0
-16,RET-493,ORD-493,2025-05-08,Torres LLC Jeans,???,Exchange - Item,2.0,0
-17,RET-704,ORD-704,2025-05-26,"Turner, Petersen and Mcdowell Jumpsuit",Changed mind,Store Credit,3.0,0
-18,RET-586,ORD-586,2025-05-31,"Glover, Carroll and Khan Belt",Changed mind,Store Credit,3.0,0
-19,RET-145,ORD-145,2025-05-29,Jones Inc Hat,Wrong item sent,No Action,1.0,0
-20,RET-534,ORD-534,2025-05-26,"Wright, Brown and Ruiz Trench Coat",???,Store Credit,3.0,0
-21,RET-973,ORD-973,2025-05-25,Taylor-Jenkins Maxi Dress,Item damaged,Refund,3.0,0
-22,RET-965,ORD-965,2025-05-31,Thompson-Harrell Casual Dress,Wrong size,Exchange - Size,3.0,0
-23,RET-419,ORD-419,2025-05-09,"Hall, Hurst and Snow Maxi Dress",Wrong size,Refund,2.0,1
-24,RET-449,ORD-449,2025-05-22,"Wright, Brown and Ruiz Trench Coat",Wrong size,Refund,2.0,0
-25,RET-576,ORD-576,2025-05-31,"Cervantes, Norton and Williams Sandals",Wrong item sent,Refund,3.0,0
-26,RET-907,ORD-907,2025-05-14,Ramirez-Watson Sneakers,???,Partial Refund,3.0,0
-27,RET-148,ORD-148,2025-05-18,Perez-Hardy Scarf,Poor quality,Refund,3.0,0
-28,RET-438,ORD-438,2025-05-31,"Hall, Hurst and Snow Maxi Dress",Item damaged,Exchange - Size,1.0,0
-29,RET-760,ORD-760,2025-05-07,Boone-Brown Sneakers,Changed mind,Store Credit,1.0,0
-30,RET-780,ORD-780,2025-05-10,"Hayes, Reeves and Marshall Shorts",Wrong size,Exchange - Size,2.0,1
-31,RET-342,ORD-342,2025-05-31,"Glover, Carroll and Khan Belt",Wrong item sent,Store Credit,3.0,0
-32,RET-191,ORD-191,2025-05-28,Lara-Larsen Hat,Poor quality,No Action,3.0,0
-33,RET-146,ORD-146,2025-05-04,"Cervantes, Norton and Williams Sandals",Wrong item sent,No Action,1.0,0
-34,RET-367,ORD-367,2025-05-15,"Hall, Hurst and Snow Maxi Dress",???,Refund,3.0,0
-35,RET-773,ORD-773,2025-05-08,Thompson-Harrell Casual Dress,???,Exchange - Item,1.0,0
-36,RET-202,ORD-202,2025-05-31,Ramirez-Watson Sneakers,Wrong size,No Action,3.0,0
-37,RET-291,ORD-291,2025-05-09,"Glover, Carroll and Khan Belt",Wrong item sent,Refund,2.0,0
-38,RET-932,ORD-932,2025-05-05,Thompson-Harrell Casual Dress,Wrong size,Refund,2.0,0
-39,RET-478,ORD-478,2025-05-31,Ramirez-Watson Sneakers,Item damaged,Refund,2.0,0
-40,RET-991,ORD-991,2025-05-20,"Cervantes, Norton and Williams Sandals",???,Partial Refund,3.0,0
-41,RET-419,ORD-419,2025-05-09,"Hall, Hurst and Snow Maxi Dress",???,Refund,3.0,0
-42,RET-825,ORD-825,2025-05-08,Torres LLC Jeans,Arrived too late,Refund,3.0,0
-43,RET-802,ORD-802,2025-05-31,"Cervantes, Norton and Williams Sandals",Item damaged,No Action,3.0,0
-44,RET-649,ORD-649,2025-05-06,Brown Group Maxi Dress,???,Refund,2.0,0
-45,RET-191,ORD-191,2025-05-29,Lara-Larsen Hat,Item damaged,Refund,1.0,0
-46,RET-035,ORD-035,2025-05-31,"Hayes, Reeves and Marshall Shorts",Changed mind,Partial Refund,3.0,0
-47,RET-563,ORD-563,2025-05-14,Allen-Reese Sandals,Arrived too late,Refund,2.0,0
-48,RET-367,ORD-367,2025-05-14,"Hall, Hurst and Snow Maxi Dress",Wrong size,Refund,2.0,0
-49,RET-410,ORD-410,2025-05-15,"Turner, Petersen and Mcdowell Jumpsuit",Wrong size,Refund,2.0,0
+0,RET-031,ORD-031,2025-05-07,SKU-ONP-007-S,Item damaged,Refund,1.0,0
+1,RET-355,ORD-355,2025-05-04,SKU-OUT-002-M,???,Exchange - Item,2.0,0
+2,RET-833,ORD-833,2025-05-25,SKU-ONP-003-L,Item damaged,Refund,3.0,0
+3,RET-246,ORD-246,2025-05-15,SKU-ACC-008-M,Changed mind,Exchange - Size,1.0,0
+4,RET-292,ORD-292,2025-05-13,SKU-ONP-007-M,Wrong size,Exchange - Size,2.0,0
+5,RET-517,ORD-517,2025-05-31,SKU-ONP-012-S,Wrong size,Exchange - Size,1.0,0
+6,RET-183,ORD-183,2025-05-24,SKU-FOT-009-S,Item damaged,Store Credit,1.0,0
+7,RET-304,ORD-304,2025-05-08,SKU-OUT-013-S,Wrong item sent,Exchange - Size,1.0,0
+8,RET-720,ORD-720,2025-05-31,SKU-FOT-016-S,Poor quality,Refund,3.0,0
+9,RET-917,ORD-917,2025-05-15,SKU-ACC-005-M,Wrong item sent,Refund,1.0,0
+10,RET-965,ORD-965,2025-05-29,SKU-BTM-014-L,Changed mind,Refund,2.0,0
+11,RET-815,ORD-815,2025-05-15,SKU-FOT-009-M,Item damaged,Refund,3.0,0
+12,RET-195,ORD-195,2025-05-31,SKU-ACC-005-M,Arrived too late,Refund,3.0,0
+13,RET-106,ORD-106,2025-05-29,SKU-FOT-001-S,Poor quality,Exchange - Size,1.0,0
+14,RET-970,ORD-970,2025-05-24,SKU-ACC-008-S,Wrong size,Refund,1.0,0
+15,RET-789,ORD-789,2025-05-16,SKU-BTM-014-L,???,Exchange - Item,1.0,0
+16,RET-122,ORD-122,2025-05-31,SKU-ONP-012-M,Changed mind,Refund,1.0,0
+17,RET-141,ORD-141,2025-05-15,SKU-ACC-008-M,Arrived too late,Refund,2.0,0
+18,RET-612,ORD-612,2025-05-14,SKU-FOT-016-S,???,Refund,1.0,0
+19,RET-296,ORD-296,2025-05-25,SKU-OUT-013-M,Item damaged,Refund,3.0,0
+20,RET-619,ORD-619,2025-05-14,SKU-ONP-003-M,Wrong size,Refund,1.0,0
+21,RET-735,ORD-735,2025-05-28,SKU-BTM-014-L,Wrong size,Exchange - Size,1.0,0
+22,RET-591,ORD-591,2025-05-08,SKU-ACC-005-M,Wrong size,Refund,2.0,0
+23,RET-443,ORD-443,2025-05-28,SKU-ONP-015-S,Arrived too late,Refund,2.0,1
+24,RET-783,ORD-783,2025-05-26,SKU-ONP-007-L,Wrong size,Store Credit,1.0,0
+25,RET-749,ORD-749,2025-05-06,SKU-ACC-006-M,Wrong item sent,Store Credit,1.0,0
+26,RET-347,ORD-347,2025-05-04,SKU-FOT-004-S,Wrong size,Refund,1.0,0
+27,RET-774,ORD-774,2025-05-28,SKU-OUT-013-L,???,No Action,3.0,0
+28,RET-401,ORD-401,2025-05-27,SKU-FOT-004-M,Wrong item sent,Refund,3.0,0
+29,RET-872,ORD-872,2025-05-18,SKU-ACC-006-M,Wrong size,Store Credit,2.0,0
+30,RET-815,ORD-815,2025-05-11,SKU-FOT-009-M,???,Refund,2.0,1
+31,RET-820,ORD-820,2025-05-03,SKU-ACC-005-L,???,Refund,2.0,0
+32,RET-650,ORD-650,2025-05-22,SKU-FOT-001-L,???,Refund,3.0,0
+33,RET-435,ORD-435,2025-05-31,SKU-ONP-015-M,Arrived too late,Refund,3.0,0
+34,RET-141,ORD-141,2025-05-17,SKU-ACC-008-M,Item damaged,Refund,1.0,0
+35,RET-757,ORD-757,2025-05-15,SKU-ACC-005-L,Arrived too late,Refund,3.0,0
+36,RET-749,ORD-749,2025-05-08,SKU-ACC-006-M,Wrong item sent,Exchange - Item,1.0,0
+37,RET-294,ORD-294,2025-05-11,SKU-ACC-008-M,Wrong size,Refund,3.0,0
+38,RET-126,ORD-126,2025-05-08,SKU-ONP-015-S,Wrong size,Refund,3.0,0
+39,RET-096,ORD-096,2025-05-27,SKU-FOT-009-M,Wrong size,Refund,1.0,0
+40,RET-743,ORD-743,2025-05-09,SKU-FOT-004-L,Arrived too late,No Action,3.0,0
+41,RET-931,ORD-931,2025-05-06,SKU-ONP-003-M,Wrong size,Refund,1.0,0
+42,RET-521,ORD-521,2025-05-12,SKU-ACC-006-M,Arrived too late,Partial Refund,3.0,0
+43,RET-777,ORD-777,2025-05-27,SKU-ACC-008-L,???,Exchange - Size,3.0,0
+44,RET-342,ORD-342,2025-05-30,SKU-FOT-016-S,Item damaged,Refund,2.0,0
+45,RET-321,ORD-321,2025-05-26,SKU-FOT-011-S,Wrong size,Refund,3.0,0
+46,RET-915,ORD-915,2025-05-25,SKU-OUT-013-L,Item damaged,Exchange - Size,2.0,0
+47,RET-801,ORD-801,2025-05-05,SKU-OUT-002-S,Poor quality,Exchange - Size,3.0,0
+48,RET-846,ORD-846,2025-05-31,SKU-ACC-005-M,Wrong item sent,Exchange - Item,1.0,0
+49,RET-621,ORD-621,2025-05-29,SKU-ONP-012-L,Changed mind,Exchange - Size,1.0,0
