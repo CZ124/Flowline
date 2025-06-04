@@ -1,51 +1,51 @@
 ,Product Name,Product SKU ID,Product Price,Product Category,Product Image URL,Product Rating,Product Stock,Product Reorder Point,Stockout Flag
-0,Anderson-Villarreal Sandals S,SKU-FOT-001-S,142.33,Footwear,https://picsum.photos/262/176,3.4,9,2,0
-1,Anderson-Villarreal Sandals M,SKU-FOT-001-M,142.33,Footwear,https://picsum.photos/262/176,2.5,6,4,0
-2,Anderson-Villarreal Sandals L,SKU-FOT-001-L,142.33,Footwear,https://picsum.photos/262/176,4.3,8,5,0
-3,Cooper-Turner Blazer S,SKU-OUT-002-S,353.2,Outerwear,https://placekitten.com/312/114,1.4,0,3,1
-4,Cooper-Turner Blazer M,SKU-OUT-002-M,353.2,Outerwear,https://placekitten.com/312/114,3.1,8,5,0
-5,Cooper-Turner Blazer L,SKU-OUT-002-L,353.2,Outerwear,https://placekitten.com/312/114,2.8,1,2,1
-6,Bowen-Allen Casual Dress S,SKU-ONP-003-S,395.88,Dresses/One-Pieces,https://dummyimage.com/929x114,4.8,4,3,0
-7,Bowen-Allen Casual Dress M,SKU-ONP-003-M,395.88,Dresses/One-Pieces,https://dummyimage.com/929x114,2.1,10,6,0
-8,Bowen-Allen Casual Dress L,SKU-ONP-003-L,395.88,Dresses/One-Pieces,https://dummyimage.com/929x114,2.5,1,6,1
-9,Williams Group Boots S,SKU-FOT-004-S,303.37,Footwear,https://picsum.photos/479/95,2.6,1,6,1
-10,Williams Group Boots M,SKU-FOT-004-M,303.37,Footwear,https://picsum.photos/479/95,2.8,8,4,0
-11,Williams Group Boots L,SKU-FOT-004-L,303.37,Footwear,https://picsum.photos/479/95,3.8,8,5,0
-12,"Simmons, Robinson And Flores Scarf S",SKU-ACC-005-S,307.6,Accessories,https://placekitten.com/679/427,1.4,6,6,0
-13,"Simmons, Robinson And Flores Scarf M",SKU-ACC-005-M,307.6,Accessories,https://placekitten.com/679/427,2.7,3,5,1
-14,"Simmons, Robinson And Flores Scarf L",SKU-ACC-005-L,307.6,Accessories,https://placekitten.com/679/427,3.0,0,5,1
-15,Warren-Walker Hat S,SKU-ACC-006-S,167.25,Accessories,https://placekitten.com/633/35,4.9,5,5,0
-16,Warren-Walker Hat M,SKU-ACC-006-M,167.25,Accessories,https://placekitten.com/633/35,2.7,8,5,0
-17,Warren-Walker Hat L,SKU-ACC-006-L,167.25,Accessories,https://placekitten.com/633/35,3.5,4,6,1
-18,Thomas Plc Maxi Dress S,SKU-ONP-007-S,87.71,Dresses/One-Pieces,https://picsum.photos/429/382,3.0,1,6,1
-19,Thomas Plc Maxi Dress M,SKU-ONP-007-M,87.71,Dresses/One-Pieces,https://picsum.photos/429/382,4.4,1,3,1
-20,Thomas Plc Maxi Dress L,SKU-ONP-007-L,87.71,Dresses/One-Pieces,https://picsum.photos/429/382,1.3,5,3,0
-21,Valdez Ltd Belt S,SKU-ACC-008-S,258.79,Accessories,https://picsum.photos/713/644,2.8,7,3,0
-22,Valdez Ltd Belt M,SKU-ACC-008-M,258.79,Accessories,https://picsum.photos/713/644,3.7,4,5,1
-23,Valdez Ltd Belt L,SKU-ACC-008-L,258.79,Accessories,https://picsum.photos/713/644,2.1,3,2,0
-24,Jacobs-Wise Sandals S,SKU-FOT-009-S,121.33,Footwear,https://picsum.photos/605/632,4.9,8,6,0
-25,Jacobs-Wise Sandals M,SKU-FOT-009-M,121.33,Footwear,https://picsum.photos/605/632,1.1,5,5,0
-26,Jacobs-Wise Sandals L,SKU-FOT-009-L,121.33,Footwear,https://picsum.photos/605/632,3.6,8,2,0
-27,Blanchard-Mathis Maxi Dress S,SKU-ONP-010-S,105.21,Dresses/One-Pieces,https://dummyimage.com/573x1019,4.4,8,5,0
-28,Blanchard-Mathis Maxi Dress M,SKU-ONP-010-M,105.21,Dresses/One-Pieces,https://dummyimage.com/573x1019,1.5,5,5,0
-29,Blanchard-Mathis Maxi Dress L,SKU-ONP-010-L,105.21,Dresses/One-Pieces,https://dummyimage.com/573x1019,4.4,10,2,0
-30,Ward-Wilson Sneakers S,SKU-FOT-011-S,250.75,Footwear,https://placekitten.com/188/13,3.7,7,5,0
-31,Ward-Wilson Sneakers M,SKU-FOT-011-M,250.75,Footwear,https://placekitten.com/188/13,2.2,6,4,0
-32,Ward-Wilson Sneakers L,SKU-FOT-011-L,250.75,Footwear,https://placekitten.com/188/13,3.9,2,4,1
-33,"Waller, Thomas And Deleon Wrap Dress S",SKU-ONP-012-S,300.06,Dresses/One-Pieces,https://placekitten.com/416/805,1.1,7,6,0
-34,"Waller, Thomas And Deleon Wrap Dress M",SKU-ONP-012-M,300.06,Dresses/One-Pieces,https://placekitten.com/416/805,4.7,3,4,1
-35,"Waller, Thomas And Deleon Wrap Dress L",SKU-ONP-012-L,300.06,Dresses/One-Pieces,https://placekitten.com/416/805,2.9,2,2,0
-36,"Macias, Osborne And Hart Coat S",SKU-OUT-013-S,458.51,Outerwear,https://picsum.photos/779/819,2.9,7,6,0
-37,"Macias, Osborne And Hart Coat M",SKU-OUT-013-M,458.51,Outerwear,https://picsum.photos/779/819,1.2,2,6,1
-38,"Macias, Osborne And Hart Coat L",SKU-OUT-013-L,458.51,Outerwear,https://picsum.photos/779/819,2.6,4,4,0
-39,Shelton Ltd Skirt S,SKU-BTM-014-S,191.65,Bottoms,https://picsum.photos/516/738,2.2,3,3,0
-40,Shelton Ltd Skirt M,SKU-BTM-014-M,191.65,Bottoms,https://picsum.photos/516/738,2.4,10,6,0
-41,Shelton Ltd Skirt L,SKU-BTM-014-L,191.65,Bottoms,https://picsum.photos/516/738,4.5,9,6,0
-42,Andersen Ltd Maxi Dress S,SKU-ONP-015-S,353.3,Dresses/One-Pieces,https://placekitten.com/45/55,4.4,7,2,0
-43,Andersen Ltd Maxi Dress M,SKU-ONP-015-M,353.3,Dresses/One-Pieces,https://placekitten.com/45/55,1.4,7,4,0
-44,Andersen Ltd Maxi Dress L,SKU-ONP-015-L,353.3,Dresses/One-Pieces,https://placekitten.com/45/55,2.7,1,6,1
-45,Bush-Ward Flats S,SKU-FOT-016-S,130.8,Footwear,https://placekitten.com/73/511,2.5,8,6,0
-46,Bush-Ward Flats M,SKU-FOT-016-M,130.8,Footwear,https://placekitten.com/73/511,3.8,2,5,1
-47,Bush-Ward Flats L,SKU-FOT-016-L,130.8,Footwear,https://placekitten.com/73/511,1.5,7,5,0
-48,King Group Sneakers S,SKU-FOT-017-S,336.01,Footwear,https://placekitten.com/336/157,3.3,0,5,1
-49,King Group Sneakers M,SKU-FOT-017-M,336.01,Footwear,https://placekitten.com/336/157,3.8,10,6,0
+0,Martinez-Little Hoodie S,SKU-TOP-001-S,144.71,Tops,https://placekitten.com/375/394,3.3,5,5,0
+1,Martinez-Little Hoodie M,SKU-TOP-001-M,144.71,Tops,https://placekitten.com/375/394,2.4,8,3,0
+2,Martinez-Little Hoodie L,SKU-TOP-001-L,144.71,Tops,https://placekitten.com/375/394,4.5,0,6,1
+3,"Powell, Knight And Shepard Romper S",SKU-ONP-002-S,240.16,Dresses/One-Pieces,https://picsum.photos/231/22,2.5,7,2,0
+4,"Powell, Knight And Shepard Romper M",SKU-ONP-002-M,240.16,Dresses/One-Pieces,https://picsum.photos/231/22,1.8,4,6,1
+5,"Powell, Knight And Shepard Romper L",SKU-ONP-002-L,240.16,Dresses/One-Pieces,https://picsum.photos/231/22,2.4,5,2,0
+6,Patel Plc Casual Dress S,SKU-ONP-003-S,344.18,Dresses/One-Pieces,https://placekitten.com/41/427,2.0,8,6,0
+7,Patel Plc Casual Dress M,SKU-ONP-003-M,344.18,Dresses/One-Pieces,https://placekitten.com/41/427,4.3,6,5,0
+8,Patel Plc Casual Dress L,SKU-ONP-003-L,344.18,Dresses/One-Pieces,https://placekitten.com/41/427,2.8,7,5,0
+9,Case Plc Trousers S,SKU-BTM-004-S,57.07,Bottoms,https://picsum.photos/946/591,4.5,10,3,0
+10,Case Plc Trousers M,SKU-BTM-004-M,57.07,Bottoms,https://picsum.photos/946/591,4.9,0,4,1
+11,Case Plc Trousers L,SKU-BTM-004-L,57.07,Bottoms,https://picsum.photos/946/591,1.5,7,2,0
+12,Spencer-Martinez Scarf S,SKU-ACC-005-S,459.22,Accessories,https://picsum.photos/986/778,2.1,7,5,0
+13,Spencer-Martinez Scarf M,SKU-ACC-005-M,459.22,Accessories,https://picsum.photos/986/778,2.4,7,5,0
+14,Spencer-Martinez Scarf L,SKU-ACC-005-L,459.22,Accessories,https://picsum.photos/986/778,1.6,9,6,0
+15,Cochran Group Jumpsuit S,SKU-ONP-006-S,146.14,Dresses/One-Pieces,https://placekitten.com/551/394,3.7,1,6,1
+16,Cochran Group Jumpsuit M,SKU-ONP-006-M,146.14,Dresses/One-Pieces,https://placekitten.com/551/394,4.3,0,3,1
+17,Cochran Group Jumpsuit L,SKU-ONP-006-L,146.14,Dresses/One-Pieces,https://placekitten.com/551/394,1.5,1,5,1
+18,"Bauer, Hunt And Porter Tank Top S",SKU-TOP-007-S,164.14,Tops,https://picsum.photos/419/44,3.5,3,3,0
+19,"Bauer, Hunt And Porter Tank Top M",SKU-TOP-007-M,164.14,Tops,https://picsum.photos/419/44,3.7,8,3,0
+20,"Bauer, Hunt And Porter Tank Top L",SKU-TOP-007-L,164.14,Tops,https://picsum.photos/419/44,3.9,9,3,0
+21,Griffin-Cooper Leggings S,SKU-BTM-008-S,493.4,Bottoms,https://picsum.photos/760/377,1.1,6,3,0
+22,Griffin-Cooper Leggings M,SKU-BTM-008-M,493.4,Bottoms,https://picsum.photos/760/377,3.5,8,6,0
+23,Griffin-Cooper Leggings L,SKU-BTM-008-L,493.4,Bottoms,https://picsum.photos/760/377,2.9,7,4,0
+24,"Schneider, Daniels And Robinson Casual Dress S",SKU-ONP-009-S,347.7,Dresses/One-Pieces,https://dummyimage.com/82x129,4.9,4,5,1
+25,"Schneider, Daniels And Robinson Casual Dress M",SKU-ONP-009-M,347.7,Dresses/One-Pieces,https://dummyimage.com/82x129,2.4,9,2,0
+26,"Schneider, Daniels And Robinson Casual Dress L",SKU-ONP-009-L,347.7,Dresses/One-Pieces,https://dummyimage.com/82x129,1.2,5,3,0
+27,Hartman-Pruitt Socks S,SKU-ACC-010-S,402.16,Accessories,https://dummyimage.com/344x491,3.7,2,4,1
+28,Hartman-Pruitt Socks M,SKU-ACC-010-M,402.16,Accessories,https://dummyimage.com/344x491,3.4,6,6,0
+29,Hartman-Pruitt Socks L,SKU-ACC-010-L,402.16,Accessories,https://dummyimage.com/344x491,2.7,7,2,0
+30,Compton Group Wrap Dress S,SKU-ONP-011-S,452.96,Dresses/One-Pieces,https://dummyimage.com/103x416,1.1,5,5,0
+31,Compton Group Wrap Dress M,SKU-ONP-011-M,452.96,Dresses/One-Pieces,https://dummyimage.com/103x416,2.4,0,4,1
+32,Compton Group Wrap Dress L,SKU-ONP-011-L,452.96,Dresses/One-Pieces,https://dummyimage.com/103x416,1.3,10,6,0
+33,"Powell, Williams And Finley Sweater S",SKU-TOP-012-S,437.89,Tops,https://dummyimage.com/851x846,3.3,5,6,1
+34,"Powell, Williams And Finley Sweater M",SKU-TOP-012-M,437.89,Tops,https://dummyimage.com/851x846,4.5,4,2,0
+35,"Powell, Williams And Finley Sweater L",SKU-TOP-012-L,437.89,Tops,https://dummyimage.com/851x846,2.6,3,2,0
+36,Brooks Llc Belt S,SKU-ACC-013-S,491.18,Accessories,https://picsum.photos/612/617,3.0,8,4,0
+37,Brooks Llc Belt M,SKU-ACC-013-M,491.18,Accessories,https://picsum.photos/612/617,1.6,7,3,0
+38,Brooks Llc Belt L,SKU-ACC-013-L,491.18,Accessories,https://picsum.photos/612/617,3.8,0,4,1
+39,"Medina, Miles And Morales T-Shirt S",SKU-TOP-014-S,350.38,Tops,https://picsum.photos/396/326,2.9,1,5,1
+40,"Medina, Miles And Morales T-Shirt M",SKU-TOP-014-M,350.38,Tops,https://picsum.photos/396/326,1.9,4,5,1
+41,"Medina, Miles And Morales T-Shirt L",SKU-TOP-014-L,350.38,Tops,https://picsum.photos/396/326,2.1,6,6,0
+42,Smith Plc Socks S,SKU-ACC-015-S,216.64,Accessories,https://placekitten.com/700/229,4.3,1,4,1
+43,Smith Plc Socks M,SKU-ACC-015-M,216.64,Accessories,https://placekitten.com/700/229,4.7,9,2,0
+44,Smith Plc Socks L,SKU-ACC-015-L,216.64,Accessories,https://placekitten.com/700/229,4.9,4,4,0
+45,Walker-Butler Skirt S,SKU-BTM-016-S,50.96,Bottoms,https://dummyimage.com/591x477,3.0,4,6,1
+46,Walker-Butler Skirt M,SKU-BTM-016-M,50.96,Bottoms,https://dummyimage.com/591x477,4.3,4,3,0
+47,Walker-Butler Skirt L,SKU-BTM-016-L,50.96,Bottoms,https://dummyimage.com/591x477,4.1,2,5,1
+48,Hayes Group Flats S,SKU-FOT-017-S,142.0,Footwear,https://dummyimage.com/959x194,1.8,4,4,0
+49,Hayes Group Flats M,SKU-FOT-017-M,142.0,Footwear,https://dummyimage.com/959x194,4.9,0,3,1

@@ -1,51 +1,51 @@
-,Return ID,Order ID,Return Date,Returned Item,Refund Reason,Resolution,Processing Days
-0,RET-031,ORD-031,2025-05-07,SKU-ONP-007-S,Item damaged,Refund,1.0
-1,RET-355,ORD-355,2025-05-04,SKU-OUT-002-M,???,Exchange - Item,2.0
-2,RET-833,ORD-833,2025-05-25,SKU-ONP-003-L,Item damaged,Refund,3.0
-3,RET-246,ORD-246,2025-05-15,SKU-ACC-008-M,Changed mind,Exchange - Size,1.0
-4,RET-292,ORD-292,2025-05-13,SKU-ONP-007-M,Wrong size,Exchange - Size,2.0
-5,RET-517,ORD-517,2025-05-31,SKU-ONP-012-S,Wrong size,Exchange - Size,1.0
-6,RET-183,ORD-183,2025-05-24,SKU-FOT-009-S,Item damaged,Store Credit,1.0
-7,RET-304,ORD-304,2025-05-08,SKU-OUT-013-S,Wrong item sent,Exchange - Size,1.0
-8,RET-720,ORD-720,2025-05-31,SKU-FOT-016-S,Poor quality,Refund,3.0
-9,RET-917,ORD-917,2025-05-15,SKU-ACC-005-M,Wrong item sent,Refund,1.0
-10,RET-965,ORD-965,2025-05-29,SKU-BTM-014-L,Changed mind,Refund,2.0
-11,RET-815,ORD-815,2025-05-15,SKU-FOT-009-M,Item damaged,Refund,3.0
-12,RET-195,ORD-195,2025-05-31,SKU-ACC-005-M,Arrived too late,Refund,3.0
-13,RET-106,ORD-106,2025-05-29,SKU-FOT-001-S,Poor quality,Exchange - Size,1.0
-14,RET-970,ORD-970,2025-05-24,SKU-ACC-008-S,Wrong size,Refund,1.0
-15,RET-789,ORD-789,2025-05-16,SKU-BTM-014-L,???,Exchange - Item,1.0
-16,RET-122,ORD-122,2025-05-31,SKU-ONP-012-M,Changed mind,Refund,1.0
-17,RET-141,ORD-141,2025-05-15,SKU-ACC-008-M,Arrived too late,Refund,2.0
-18,RET-612,ORD-612,2025-05-14,SKU-FOT-016-S,???,Refund,1.0
-19,RET-296,ORD-296,2025-05-25,SKU-OUT-013-M,Item damaged,Refund,3.0
-20,RET-619,ORD-619,2025-05-14,SKU-ONP-003-M,Wrong size,Refund,1.0
-21,RET-735,ORD-735,2025-05-28,SKU-BTM-014-L,Wrong size,Exchange - Size,1.0
-22,RET-591,ORD-591,2025-05-08,SKU-ACC-005-M,Wrong size,Refund,2.0
-23,RET-443,ORD-443,2025-05-28,SKU-ONP-015-S,Arrived too late,Refund,
-24,RET-783,ORD-783,2025-05-26,SKU-ONP-007-L,Wrong size,Store Credit,1.0
-25,RET-749,ORD-749,2025-05-06,SKU-ACC-006-M,Wrong item sent,Store Credit,1.0
-26,RET-347,ORD-347,2025-05-04,SKU-FOT-004-S,Wrong size,Refund,1.0
-27,RET-774,ORD-774,2025-05-28,SKU-OUT-013-L,???,No Action,3.0
-28,RET-401,ORD-401,2025-05-27,SKU-FOT-004-M,Wrong item sent,Refund,3.0
-29,RET-872,ORD-872,2025-05-18,SKU-ACC-006-M,Wrong size,Store Credit,2.0
-30,RET-815,ORD-815,2025-05-11,SKU-FOT-009-M,???,Refund,
-31,RET-820,ORD-820,2025-05-03,SKU-ACC-005-L,???,Refund,2.0
-32,RET-650,ORD-650,2025-05-22,SKU-FOT-001-L,???,Refund,3.0
-33,RET-435,ORD-435,2025-05-31,SKU-ONP-015-M,Arrived too late,Refund,3.0
-34,RET-141,ORD-141,2025-05-17,SKU-ACC-008-M,Item damaged,Refund,1.0
-35,RET-757,ORD-757,2025-05-15,SKU-ACC-005-L,Arrived too late,Refund,3.0
-36,RET-749,ORD-749,2025-05-08,SKU-ACC-006-M,Wrong item sent,Exchange - Item,1.0
-37,RET-294,ORD-294,2025-05-11,SKU-ACC-008-M,Wrong size,Refund,3.0
-38,RET-126,ORD-126,2025-05-08,SKU-ONP-015-S,Wrong size,Refund,3.0
-39,RET-096,ORD-096,2025-05-27,SKU-FOT-009-M,Wrong size,Refund,1.0
-40,RET-743,ORD-743,2025-05-09,SKU-FOT-004-L,Arrived too late,No Action,3.0
-41,RET-931,ORD-931,2025-05-06,SKU-ONP-003-M,Wrong size,Refund,1.0
-42,RET-521,ORD-521,2025-05-12,SKU-ACC-006-M,Arrived too late,Partial Refund,3.0
-43,RET-777,ORD-777,2025-05-27,SKU-ACC-008-L,???,Exchange - Size,3.0
-44,RET-342,ORD-342,2025-05-30,SKU-FOT-016-S,Item damaged,Refund,2.0
-45,RET-321,ORD-321,2025-05-26,SKU-FOT-011-S,Wrong size,Refund,3.0
-46,RET-915,ORD-915,2025-05-25,SKU-OUT-013-L,Item damaged,Exchange - Size,2.0
-47,RET-801,ORD-801,2025-05-05,SKU-OUT-002-S,Poor quality,Exchange - Size,3.0
-48,RET-846,ORD-846,2025-05-31,SKU-ACC-005-M,Wrong item sent,Exchange - Item,1.0
-49,RET-621,ORD-621,2025-05-29,SKU-ONP-012-L,Changed mind,Exchange - Size,1.0
+,Return ID,Order ID,Units Returned,Return Date,Returned Item,Refund Reason,Resolution,Processing Days
+0,RET-414,ORD-414,3,2025-06-28,SKU-ACC-013-S,Changed mind,Refund,3.0
+1,RET-075,ORD-075,1,2025-06-26,SKU-ACC-010-M,Wrong size,Refund,2.0
+2,RET-911,ORD-911,1,2025-06-15,SKU-ACC-013-S,Wrong size,Exchange - Size,1.0
+3,RET-387,ORD-387,1,2025-06-30,SKU-BTM-016-M,???,Store Credit,3.0
+4,RET-921,ORD-921,2,2025-06-20,SKU-ACC-015-S,Poor quality,Exchange - Size,1.0
+5,RET-040,ORD-040,1,2025-06-22,SKU-ACC-013-M,Item damaged,Exchange - Size,1.0
+6,RET-195,ORD-195,4,2025-06-16,SKU-BTM-008-L,Changed mind,Exchange - Size,3.0
+7,RET-887,ORD-887,1,2025-06-21,SKU-TOP-014-L,Changed mind,Exchange - Size,2.0
+8,RET-837,ORD-837,3,2025-06-23,SKU-ACC-015-S,Wrong item sent,Partial Refund,2.0
+9,RET-301,ORD-301,2,2025-06-11,SKU-ACC-015-M,Poor quality,Exchange - Size,2.0
+10,RET-180,ORD-180,3,2025-06-13,SKU-ONP-009-M,Wrong size,Store Credit,3.0
+11,RET-992,ORD-992,1,2025-06-09,SKU-FOT-017-M,Wrong item sent,Refund,1.0
+12,RET-102,ORD-102,3,2025-06-21,SKU-ONP-006-S,Wrong item sent,Refund,2.0
+13,RET-250,ORD-250,1,2025-06-27,SKU-ONP-003-L,Wrong size,Refund,3.0
+14,RET-326,ORD-326,2,2025-06-20,SKU-ACC-013-M,Arrived too late,Exchange - Item,1.0
+15,RET-992,ORD-992,1,2025-06-12,SKU-FOT-017-M,???,Exchange - Size,2.0
+16,RET-964,ORD-964,2,2025-06-12,SKU-ACC-010-M,Arrived too late,Refund,1.0
+17,RET-414,ORD-414,5,2025-06-30,SKU-ACC-013-S,Item damaged,Refund,3.0
+18,RET-314,ORD-314,2,2025-06-16,SKU-BTM-016-L,Wrong item sent,Exchange - Size,2.0
+19,RET-539,ORD-539,2,2025-06-30,SKU-ONP-006-M,Item damaged,Refund,2.0
+20,RET-382,ORD-382,3,2025-06-20,SKU-ACC-005-L,???,Exchange - Size,1.0
+21,RET-995,ORD-995,1,2025-06-25,SKU-FOT-017-M,Poor quality,Refund,2.0
+22,RET-902,ORD-902,1,2025-06-20,SKU-TOP-014-L,Arrived too late,Refund,3.0
+23,RET-201,ORD-201,1,2025-06-17,SKU-ONP-006-L,Changed mind,Refund,
+24,RET-326,ORD-326,2,2025-06-25,SKU-ACC-013-M,Changed mind,Refund,1.0
+25,RET-623,ORD-623,1,2025-06-16,SKU-BTM-016-M,???,Store Credit,2.0
+26,RET-301,ORD-301,1,2025-06-13,SKU-ACC-015-M,Wrong size,No Action,2.0
+27,RET-573,ORD-573,1,2025-06-20,SKU-TOP-014-L,Poor quality,Exchange - Size,3.0
+28,RET-570,ORD-570,3,2025-06-30,SKU-ONP-002-S,Wrong size,Exchange - Size,3.0
+29,RET-009,ORD-009,2,2025-06-30,SKU-TOP-001-L,Wrong size,Partial Refund,2.0
+30,RET-548,ORD-548,2,2025-06-30,SKU-TOP-012-L,Changed mind,Exchange - Size,
+31,RET-934,ORD-934,1,2025-06-25,SKU-ONP-002-L,Wrong size,Exchange - Size,3.0
+32,RET-887,ORD-887,2,2025-06-24,SKU-TOP-014-L,Arrived too late,Refund,3.0
+33,RET-662,ORD-662,2,2025-06-13,SKU-ONP-011-S,Arrived too late,Exchange - Size,3.0
+34,RET-251,ORD-251,4,2025-06-22,SKU-ONP-002-L,Wrong item sent,Partial Refund,3.0
+35,RET-601,ORD-601,1,2025-06-25,SKU-BTM-016-M,???,Partial Refund,3.0
+36,RET-131,ORD-131,1,2025-06-08,SKU-BTM-008-S,Wrong size,Refund,2.0
+37,RET-964,ORD-964,1,2025-06-10,SKU-ACC-010-M,???,Refund,3.0
+38,RET-306,ORD-306,1,2025-06-09,SKU-ACC-015-S,Changed mind,Refund,2.0
+39,RET-581,ORD-581,3,2025-06-14,SKU-ACC-013-S,???,Refund,3.0
+40,RET-007,ORD-007,4,2025-06-21,SKU-ONP-003-L,Item damaged,No Action,2.0
+41,RET-869,ORD-869,1,2025-06-12,SKU-TOP-014-M,Arrived too late,Exchange - Size,1.0
+42,RET-724,ORD-724,1,2025-06-29,SKU-ACC-005-L,Arrived too late,Refund,1.0
+43,RET-449,ORD-449,2,2025-06-07,SKU-ONP-011-L,Wrong size,Refund,2.0
+44,RET-981,ORD-981,2,2025-06-23,SKU-TOP-007-L,Wrong size,Exchange - Item,1.0
+45,RET-266,ORD-266,1,2025-06-28,SKU-BTM-004-S,Wrong size,Partial Refund,2.0
+46,RET-797,ORD-797,3,2025-06-06,SKU-ONP-003-S,Wrong size,Refund,2.0
+47,RET-064,ORD-064,3,2025-06-27,SKU-BTM-004-S,Arrived too late,Refund,3.0
+48,RET-241,ORD-241,1,2025-06-13,SKU-ONP-009-M,Wrong size,Refund,3.0
+49,RET-306,ORD-306,1,2025-06-05,SKU-BTM-004-L,???,Partial Refund,2.0

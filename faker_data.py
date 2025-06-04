@@ -188,6 +188,7 @@ def create_returns(products, orders_df):
     orders = [orders_df.iloc[random.randint(0,199)] for _ in range(num_refunds)]
     return_id = ['RET'+order['Order ID'][3:] for order in orders]
     order_id = [order['Order ID'] for order in orders]
+    units_returned = [order['Units Ordered']-random.randint(0, order['Units Ordered']-1) for order in orders]
     returned_item = [order['Product Ordered'] for order in orders]
     refund_reason = [random.choices(refund_reasons, weights=reason_weights, k=1)[0] for _ in range(num_refunds)]
     resolution = [random.choices(resolutions, weights=resol_weights, k=1)[0] for _ in range(num_refunds)]
@@ -203,6 +204,7 @@ def create_returns(products, orders_df):
     returns_df = pd.DataFrame({
         'Return ID':return_id,
         'Order ID':order_id,
+        'Units Returned': units_returned,
         'Return Date':return_date,
         'Returned Item':returned_item,
         'Refund Reason':refund_reason,
@@ -221,9 +223,10 @@ orders = []
 inventories = []
 returns = []
 
+products = create_products(num_products)
+
 for start_date in [month_1_start, month_2_start, month_3_start]:
 
-    products = create_products(num_products)
     orders_df = create_orders(products, start_date)
     inventory_df = create_inventory(products, num_products)
     returns_df = create_returns(products, orders_df)
